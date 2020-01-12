@@ -1,7 +1,16 @@
 ---
-title: About
+title: Hi there,
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tincidunt ornare massa eget egestas purus viverra. Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien. Potenti nullam ac tortor vitae. Vitae sapien pellentesque habitant morbi tristique. Aliquam sem et tortor consequat id porta nibh venenatis cras. Integer vitae justo eget magna fermentum iaculis eu. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Mattis enim ut tellus elementum sagittis. Adipiscing enim eu turpis egestas pretium aenean pharetra magna. Ullamcorper malesuada proin libero nunc consequat interdum varius. Pellentesque id nibh tortor id aliquet lectus proin nibh nisl. Est ullamcorper eget nulla facilisi etiam dignissim diam quis enim. Eget nunc scelerisque viverra mauris in aliquam sem fringilla. Vitae tempus quam pellentesque nec nam aliquam sem et tortor.
+Hi there, I’m **Mattias**, a software developer living and working in **Stockholm, Sweden**.
 
-Tellus molestie nunc non blandit massa. Porttitor leo a diam sollicitudin. Malesuada pellentesque elit eget gravida cum sociis natoque. Ultricies leo integer malesuada nunc vel risus commodo viverra. Amet porttitor eget dolor morbi non arcu. Bibendum arcu vitae elementum curabitur vitae nunc. Ut sem nulla pharetra diam sit amet. Ac feugiat sed lectus vestibulum mattis ullamcorper. Eu volutpat odio facilisis mauris sit amet massa vitae. Semper eget duis at tellus at urna condimentum mattis pellentesque. Tincidunt dui ut ornare lectus sit amet. Sed augue lacus viverra vitae congue eu. Nisi lacus sed viverra tellus. Sed id semper risus in. Urna nunc id cursus metus aliquam.
+
+## What I do
+
+I'm working as a software developer in [FindCourses PRO](https://findcoursespro.com/)  where we develop and sell a platform to larger corporations where we handle the search, contact, and billing of training.
+
+We build applications in  [ASP.NET](https://www.asp.net/),  [WCF](https://docs.microsoft.com/en-us/dotnet/framework/wcf/whats-wcf)  and a numerous of other, often Microsoft technologies. Also leveraging  [AWS](https://aws.amazon.com/)  as our cloud platform provider.
+
+## Quick history
+
+I grew up in the suburbs of Stockholm, then went off to study **Microsofts .Net echosystem** at Nackademin in Solna, and all the cool technologies related to it. I'm having a great time learning all the things **.NET** , and engaging in the great community that comes with it.

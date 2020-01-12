@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bulma + CMS.js Blog Theme</title>
+    <title>Mattias Josephsson</title>
     <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -22,13 +22,14 @@
           <a class="navbar-item" href="#">
             Blog
           </a>
-          <span class="navbar-burger burger" data-target="navbarMenu">
-            <span></span>
-            <span></span>
-            <span></span>
-          </span>
+          <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+          
         </div>
-        <div id="navbarMenu" class="navbar-menu">
+        <div id="navMenu" class="navbar-menu">
           <div class="navbar-end">
             <a class="navbar-item is-active" href="#">
               Home
@@ -39,18 +40,22 @@
             <a class="navbar-item" href="#/pages/about">
               About
             </a>
-            <a class="navbar-item" href="#/pages/links">
+            <!-- <a class="navbar-item" href="#/pages/links">
               Links
-            </a>
+            </a> -->
             <div class="navbar-item has-dropdown is-hoverable">
               <a class="navbar-link">
-                Dropdown
+                Links
               </a>
               <div class="navbar-dropdown">
-                <a class="navbar-item" href="#/pages">
-                  Pages
+                <a class="navbar-item" href="https://www.linkedin.com/in/mattias-josephsson-5014b0130/">
+                  LinkedIn
+                </a>
+                <a class="navbar-item" href="https://github.com/Josephson199">
+                  Github
                 </a>
               </div>
+              
             </div>
           </div>
         </div>
@@ -61,7 +66,7 @@
       <div class="hero-body">
         <div class="container has-text-centered">
           <h1 class="title is-size-1">
-          Bulma + CMS.js
+          Mattias Josephsson
           </h1>
         </div>
       </div>
@@ -83,25 +88,33 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.12/es5-shim.min.js"></script>
     <script src="./js/cms.js"></script>
     <script src="./js/config.js"></script>
-    <!-- <script>
-    var blog = new CMS({
-      elementId: 'cms',
-      mode: 'GITHUB',
-      github: {
-        username: 'josephson199',
-        repo: 'cms.js-themes',
-        branch: 'gh-pages',
-        host: 'https://api.github.com',
-        prefix: 'templates',
-      },
-      layoutDirectory: 'layouts/',
-      errorLayout: 'error',
-      defaultView: 'posts',
-      types: [
-        { name: 'posts', layout: { list: 'post-list', single: 'post' }},
-        { name: 'pages', layout: { list: 'page-list', single: 'page' }},
-      ],
-    });
-    </script> -->
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+
+    // Get all "navbar-burger" elements
+    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+    // Check if there are any navbar burgers
+    if ($navbarBurgers.length > 0) {
+
+      // Add a click event on each of them
+      $navbarBurgers.forEach( el => {
+        el.addEventListener('click', () => {
+
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+
+        });
+      });
+    }
+
+});
+    </script>
+  
   </body>
 </html>
