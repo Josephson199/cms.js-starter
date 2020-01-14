@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Another blog post
-excerpt: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
-tags: sampletag
+title: .NET Razor Pages hosted in AWS Lambda
+excerpt: Building a .NET Razor Pages app hosted in AWS Lambda with API Gateway and Custom Domain Names while keeping DNS control outside of Route53.
+tags: AWS,ACM,Lambda,.NET,Razor Pages,API Gateway
 author: Mattias
 ---
 
